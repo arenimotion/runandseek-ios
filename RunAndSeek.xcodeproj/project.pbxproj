@@ -12,13 +12,13 @@
 		2506F66318557D3A00557313 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2506F65518557D3A00557313 /* Default.png */; };
 		2506F66418557D3A00557313 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2506F65618557D3A00557313 /* Default@2x.png */; };
 		2506F66518557D3A00557313 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2506F65818557D3A00557313 /* InfoPlist.strings */; };
-		2506F66618557D3A00557313 /* InputScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2506F65A18557D3A00557313 /* InputScreen.xib */; };
-		2506F66718557D3A00557313 /* LatLongInputScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2506F65B18557D3A00557313 /* LatLongInputScreen.xib */; };
 		2506F66818557D3A00557313 /* RSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2506F65D18557D3A00557313 /* RSAppDelegate.m */; };
 		2506F66918557D3A00557313 /* RSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2506F65F18557D3A00557313 /* RSViewController.m */; };
 		2506F66A18557D3A00557313 /* RunAndSeek-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2506F66018557D3A00557313 /* RunAndSeek-Info.plist */; };
 		252BC256184BD08F0029A38C /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 252BC255184BD08F0029A38C /* GoogleMaps.framework */; };
 		252BC25A184BD0BE0029A38C /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 252BC259184BD0BE0029A38C /* GoogleMaps.bundle */; };
+		257E949A185AD10700A7D96C /* inputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 257E9498185AD10700A7D96C /* inputViewController.m */; };
+		257E949B185AD10700A7D96C /* inputViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 257E9499185AD10700A7D96C /* inputViewController.xib */; };
 		8156741216FCE55300FC6CAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8156741116FCE55300FC6CAE /* UIKit.framework */; };
 		8156741416FCE55300FC6CAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8156741316FCE55300FC6CAE /* Foundation.framework */; };
 		8156741616FCE55300FC6CAE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8156741516FCE55300FC6CAE /* CoreGraphics.framework */; };
@@ -42,8 +42,6 @@
 		2506F65518557D3A00557313 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = RunAndSeek/Default.png; sourceTree = SOURCE_ROOT; };
 		2506F65618557D3A00557313 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "RunAndSeek/Default@2x.png"; sourceTree = SOURCE_ROOT; };
 		2506F65918557D3A00557313 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
-		2506F65A18557D3A00557313 /* InputScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InputScreen.xib; path = RunAndSeek/InputScreen.xib; sourceTree = SOURCE_ROOT; };
-		2506F65B18557D3A00557313 /* LatLongInputScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LatLongInputScreen.xib; path = RunAndSeek/LatLongInputScreen.xib; sourceTree = SOURCE_ROOT; };
 		2506F65C18557D3A00557313 /* RSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSAppDelegate.h; path = RunAndSeek/RSAppDelegate.h; sourceTree = SOURCE_ROOT; };
 		2506F65D18557D3A00557313 /* RSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSAppDelegate.m; path = RunAndSeek/RSAppDelegate.m; sourceTree = SOURCE_ROOT; };
 		2506F65E18557D3A00557313 /* RSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSViewController.h; path = RunAndSeek/RSViewController.h; sourceTree = SOURCE_ROOT; };
@@ -52,6 +50,9 @@
 		2506F66118557D3A00557313 /* RunAndSeek-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RunAndSeek-Prefix.pch"; path = "RunAndSeek/RunAndSeek-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		252BC255184BD08F0029A38C /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		252BC259184BD0BE0029A38C /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		257E9497185AD10700A7D96C /* inputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = inputViewController.h; path = RunAndSeek/inputViewController.h; sourceTree = SOURCE_ROOT; };
+		257E9498185AD10700A7D96C /* inputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = inputViewController.m; path = RunAndSeek/inputViewController.m; sourceTree = SOURCE_ROOT; };
+		257E9499185AD10700A7D96C /* inputViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = inputViewController.xib; path = RunAndSeek/inputViewController.xib; sourceTree = SOURCE_ROOT; };
 		8156740E16FCE55300FC6CAE /* RunAndSeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunAndSeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8156741116FCE55300FC6CAE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8156741316FCE55300FC6CAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -110,6 +111,7 @@
 		8156740516FCE55300FC6CAE = {
 			isa = PBXGroup;
 			children = (
+				8156741716FCE55300FC6CAE /* RunAndSeek */,
 				81FB3D8617010E0B0082E9ED /* libc++.dylib */,
 				8156745316FD01BB00FC6CAE /* GLKit.framework */,
 				8156744B16FCE5F100FC6CAE /* SystemConfiguration.framework */,
@@ -123,7 +125,6 @@
 				8156743B16FCE5A200FC6CAE /* CoreLocation.framework */,
 				8156743916FCE59900FC6CAE /* CoreData.framework */,
 				8156743716FCE58F00FC6CAE /* AVFoundation.framework */,
-				8156741716FCE55300FC6CAE /* RunAndSeek */,
 				8156741016FCE55300FC6CAE /* Frameworks */,
 				8156740F16FCE55300FC6CAE /* Products */,
 			);
@@ -152,9 +153,10 @@
 		8156741716FCE55300FC6CAE /* RunAndSeek */ = {
 			isa = PBXGroup;
 			children = (
+				257E9497185AD10700A7D96C /* inputViewController.h */,
+				257E9498185AD10700A7D96C /* inputViewController.m */,
+				257E9499185AD10700A7D96C /* inputViewController.xib */,
 				2506F65718557D3A00557313 /* en.lproj */,
-				2506F65A18557D3A00557313 /* InputScreen.xib */,
-				2506F65B18557D3A00557313 /* LatLongInputScreen.xib */,
 				2506F65C18557D3A00557313 /* RSAppDelegate.h */,
 				2506F65D18557D3A00557313 /* RSAppDelegate.m */,
 				2506F65E18557D3A00557313 /* RSViewController.h */,
@@ -231,13 +233,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2506F66418557D3A00557313 /* Default@2x.png in Resources */,
-				2506F66718557D3A00557313 /* LatLongInputScreen.xib in Resources */,
 				2506F66318557D3A00557313 /* Default.png in Resources */,
-				2506F66618557D3A00557313 /* InputScreen.xib in Resources */,
 				2506F66218557D3A00557313 /* Default-568h@2x.png in Resources */,
 				2506F66A18557D3A00557313 /* RunAndSeek-Info.plist in Resources */,
 				252BC25A184BD0BE0029A38C /* GoogleMaps.bundle in Resources */,
 				2506F66518557D3A00557313 /* InfoPlist.strings in Resources */,
+				257E949B185AD10700A7D96C /* inputViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2506F66818557D3A00557313 /* RSAppDelegate.m in Sources */,
+				257E949A185AD10700A7D96C /* inputViewController.m in Sources */,
 				2506F65318557D1A00557313 /* main.m in Sources */,
 				2506F66918557D3A00557313 /* RSViewController.m in Sources */,
 			);
@@ -335,6 +337,7 @@
 					"$(inherited)",
 					"/Users/randy/Downloads/GoogleMaps-iOS-1.6.0\\ 3",
 					"/Users/randy/runandseek-ios",
+					"/Users/randy/runandseek-ios-v1",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RunAndSeek/RunAndSeek-Prefix.pch";
@@ -351,6 +354,7 @@
 					"$(inherited)",
 					"/Users/randy/Downloads/GoogleMaps-iOS-1.6.0\\ 3",
 					"/Users/randy/runandseek-ios",
+					"/Users/randy/runandseek-ios-v1",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RunAndSeek/RunAndSeek-Prefix.pch";
