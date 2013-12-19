@@ -5,18 +5,28 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
+<<<<<<< HEAD
 	<string>A8965B22-F344-4E97-B7DF-C8075E340438</string>
+=======
+	<string>E016F332-CA09-45B2-BFD2-0ED2645A24B9</string>
+>>>>>>> Adding in xccheckout because it's freaking out
 	<key>IDESourceControlProjectName</key>
 	<string>RunAndSeek</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+<<<<<<< HEAD
 		<key>01D3F65C-E8DD-4990-A8B5-2E6859051079</key>
 		<string>https://github.com/googlemaps/hellomap-ios.git</string>
+=======
+		<key>0CD561A8-8503-446B-BB63-A28B095F612F</key>
+		<string>https://github.com/randyfranklin/runandseek-ios.git</string>
+>>>>>>> Adding in xccheckout because it's freaking out
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>RunAndSeek.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+<<<<<<< HEAD
 		<key>01D3F65C-E8DD-4990-A8B5-2E6859051079</key>
 		<string>../..</string>
 	</dict>
@@ -26,15 +36,32 @@
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
 	<string>01D3F65C-E8DD-4990-A8B5-2E6859051079</string>
+=======
+		<key>0CD561A8-8503-446B-BB63-A28B095F612F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/randyfranklin/runandseek-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0CD561A8-8503-446B-BB63-A28B095F612F</string>
+>>>>>>> Adding in xccheckout because it's freaking out
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
+<<<<<<< HEAD
 			<string>01D3F65C-E8DD-4990-A8B5-2E6859051079</string>
 			<key>IDESourceControlWCCName</key>
 			<string>hellomap-ios</string>
+=======
+			<string>0CD561A8-8503-446B-BB63-A28B095F612F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>runandseek-ios-v1</string>
+>>>>>>> Adding in xccheckout because it's freaking out
 		</dict>
 	</array>
 </dict>
